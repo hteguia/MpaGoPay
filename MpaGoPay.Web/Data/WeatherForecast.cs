@@ -11,7 +11,7 @@ namespace MpaGoPay.Web.Data
 
 
 
-
+        public string Testeur { get; set; } 
 
 
 
