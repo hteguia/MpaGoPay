@@ -15,6 +15,5 @@ namespace MpaGoPay.Domain.Entities
         }
         public string Name { get; set; }
         public string Number { get; set; }
-        public DateTime CreateAt { get; set; }
     }
 }
