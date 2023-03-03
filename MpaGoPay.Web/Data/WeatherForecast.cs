@@ -9,8 +9,7 @@ namespace MpaGoPay.Web.Data
 
 
 
-
-
+        public string Name { get; set; }    
         public string Testeur { get; set; } 
 
 
