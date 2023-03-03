@@ -1,4 +1,4 @@
-namespace MpaGoPay.Web.Data
+namespace MpaGoPay.Client.Data
 {
     public class WeatherForecast
     {
