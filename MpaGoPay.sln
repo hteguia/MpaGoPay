@@ -5,6 +5,14 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MpaGoPay.Client", "MpaGoPay.Client\MpaGoPay.Client.csproj", "{0D96F589-CA69-40F9-9670-EBA0CF55D794}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MpaGoPay.Domain", "MpaGoPay.Domain\MpaGoPay.Domain.csproj", "{A6898967-DEB2-433C-A989-78AF3DE84FBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MpaGoPay.Infrastructure", "MpaGoPay.Infrastructure\MpaGoPay.Infrastructure.csproj", "{06EC74D7-7039-4710-AB13-F2D20CE8B689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MpaGoPay.Server", "MpaGoPay.Server\MpaGoPay.Server.csproj", "{7451DA2B-A6AA-428E-AC62-948CC15BA943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MpaGoPay.Application", "MpaGoPay.Application\MpaGoPay.Application.csproj", "{F80DBFDA-3E02-4CC1-B472-E0697BC42403}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{0D96F589-CA69-40F9-9670-EBA0CF55D794}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D96F589-CA69-40F9-9670-EBA0CF55D794}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D96F589-CA69-40F9-9670-EBA0CF55D794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6898967-DEB2-433C-A989-78AF3DE84FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6898967-DEB2-433C-A989-78AF3DE84FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6898967-DEB2-433C-A989-78AF3DE84FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6898967-DEB2-433C-A989-78AF3DE84FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06EC74D7-7039-4710-AB13-F2D20CE8B689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EC74D7-7039-4710-AB13-F2D20CE8B689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06EC74D7-7039-4710-AB13-F2D20CE8B689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06EC74D7-7039-4710-AB13-F2D20CE8B689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7451DA2B-A6AA-428E-AC62-948CC15BA943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7451DA2B-A6AA-428E-AC62-948CC15BA943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7451DA2B-A6AA-428E-AC62-948CC15BA943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7451DA2B-A6AA-428E-AC62-948CC15BA943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F80DBFDA-3E02-4CC1-B472-E0697BC42403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80DBFDA-3E02-4CC1-B472-E0697BC42403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80DBFDA-3E02-4CC1-B472-E0697BC42403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80DBFDA-3E02-4CC1-B472-E0697BC42403}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
