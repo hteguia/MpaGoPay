@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace MpaGoPay.Domain.Entities
 {
-    public class Card
+    public class Card : BaseEntity
     {
         public Card(string name, string number)
         {
             Name = name;
             Number = number;
         }
-        public string Name { get; set; }
+        public string Name { get; set;
         public string Number { get; set; }
     }
 }

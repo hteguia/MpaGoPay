@@ -18,6 +18,7 @@ namespace MpaGoPay.Client.Pages
             _logger = logger;
         }
 
+
         public void OnGet()
         {
             RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
