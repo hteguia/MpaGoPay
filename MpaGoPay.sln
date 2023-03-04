@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MpaGoPay.Client", "MpaGoPay
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MpaGoPay.Domain", "MpaGoPay.Domain\MpaGoPay.Domain.csproj", "{A6898967-DEB2-433C-A989-78AF3DE84FBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MpaGoPay.Infrastructure", "MpaGoPay.Infrastructure\MpaGoPay.Infrastructure.csproj", "{6AA7921A-13AF-40BD-BD4A-49B61AF6E2D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MpaGoPay.Application", "MpaGoPay.Application\MpaGoPay.Application.csproj", "{9320C5B2-C0E7-4B34-A63B-14C51E07F345}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{A6898967-DEB2-433C-A989-78AF3DE84FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6898967-DEB2-433C-A989-78AF3DE84FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6898967-DEB2-433C-A989-78AF3DE84FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AA7921A-13AF-40BD-BD4A-49B61AF6E2D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA7921A-13AF-40BD-BD4A-49B61AF6E2D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA7921A-13AF-40BD-BD4A-49B61AF6E2D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA7921A-13AF-40BD-BD4A-49B61AF6E2D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9320C5B2-C0E7-4B34-A63B-14C51E07F345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9320C5B2-C0E7-4B34-A63B-14C51E07F345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9320C5B2-C0E7-4B34-A63B-14C51E07F345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9320C5B2-C0E7-4B34-A63B-14C51E07F345}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
